@@ -29,5 +29,5 @@ steps:
   
 - task: katalonTask@0
   inputs:
-    version: '6.3.3'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Regression Tests/All tests"'
+    location: 'C:\Development\Katalon_Studio'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Regression Tests/All tests"''
