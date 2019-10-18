@@ -27,7 +27,3 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish artifacts: drop'
   
-- task: katalonTask@0
-  inputs:
-    version: '6.3.2.4'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Regression Tests/All tests"'
